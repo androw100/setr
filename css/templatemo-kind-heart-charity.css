@@ -1699,3 +1699,16 @@ blockquote::before {
   z-index: 200000;
   transition: all 250ms linear;
 }
+
+.lastsec {
+  color: white;
+  background-color: black;
+  position: relative;
+
+  z-index: 100;
+}
+
+.lastsec p {
+  font-size: 10px;
+  margin-bottom: 1px;
+}
