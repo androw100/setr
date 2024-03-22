@@ -691,6 +691,12 @@ strong {
   overflow: hidden;
 }
 
+.volunteer-section2 {
+  background: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
+}
+
 .volunteer-section::after {
   content: "";
   background: var(--primary-color);
@@ -1478,7 +1484,7 @@ blockquote::before {
   }
 
   .cta-section .row {
-    padding-top: 50px;
+
     padding-bottom: 50px;
   }
 
@@ -1661,4 +1667,35 @@ blockquote::before {
   background: var(--primary-color);
   color: white;
 
+}
+
+.myheght {
+  width: 100px;
+}
+
+/* .mycar {
+  height: 500px;
+} */
+.mybtn {
+  background-color: var(--primary-color)
+}
+
+.mybtn:hover {
+  background-color: var(--primary-color);
+}
+
+.logoo img {
+  height: 55px;
+  width: auto;
+  display: block;
+  mix-blend-mode: difference;
+}
+
+.logoo {
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  display: block;
+  z-index: 200000;
+  transition: all 250ms linear;
 }
